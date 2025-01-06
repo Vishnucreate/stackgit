@@ -48,24 +48,7 @@ This project combines the power of the **Google Search API** and **OpenAI's GPT*
 
 4. View the extracted search results and the AI-generated summary.
 
-## Sample Output
 
-### Query
-```plaintext
-AttributeError: module 'openai' has no attribute 'error'
-```
-
-### Extracted Results
-1. **Title:** python - AttributeError: module 'openai' has no attribute 'error' - Stack Overflow  
-   **Snippet:** Nov 20, 2023 ... I am strangely getting the above error. My OpenAI version is 1.3.3 and langchain 0.0.301, and python 3.8...  
-   **Link:** [Stack Overflow](https://stackoverflow.com/questions/77513190/attributeerror-module-openai-has-no-attribute-error)
-
-2. *(Other results follow similarly...)*
-
-### Summary
-```
-The search results indicate that users have encountered the error "AttributeError: module 'openai' has no attribute 'error'" while working with the OpenAI library in Python. The issue seems to be related to changes or updates in the OpenAI module, leading to the 'error' attribute being removed or renamed in some cases. Users have tried troubleshooting solutions such as checking documentation, updating the library, uninstalling and reinstalling, and adjusting code parameters. The error message has been reported in various contexts, such as chat completions, rate limit errors, and API usage.
-```
 
 ## Requirements
 - Python 3.8+
